@@ -36,5 +36,5 @@ tabla.pack(fill="both", expand=True)
 btn_actualizar = tk.Button(root, text="Actualizar datos", command=mostrar_datos, bg="blue", fg="white")
 btn_actualizar.pack(pady=10)
 
-mostrar_datos()  # cargar datos al inicio
+mostrar_datos()  
 root.mainloop()
